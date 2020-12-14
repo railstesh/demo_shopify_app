@@ -64,3 +64,14 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'sidekiq', '~> 6.0.4'
 
 gem 'redis-rails', '~> 5.0.2'
+
+#to allow us to hide our API key and password in a .env file:
+gem 'dotenv-rails'
+
+#to allow us to easily make requests to Shopify's REST API
+gem 'rest-client'
+
+gem 'shopify_api'
+
+#to make cross-origin AJAX possible
+gem 'rack-cors'
